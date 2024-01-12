@@ -62,7 +62,7 @@ jobs:
          env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
          with:
-          tag_name: TWRP_11.1
+          tag_name: TWRP_11
           name: TWRP-RE54D1
           files: | 
             work/out/target/product/RE54D1/boot.img
